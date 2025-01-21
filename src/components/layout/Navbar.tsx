@@ -11,8 +11,9 @@ export default function Navbar() {
     { name: 'Accueil', href: '/#top' },
     { name: 'Expertises', href: '/expertises#top' },
     { name: 'Le Cabinet', href: '/cabinet#top' },
-    { name: 'Qui sommes nous ?', href: '/equipe#top' },
-    { name: 'Prendre rendez-vous', href: '/contact#top' },
+    { name: 'Qui sommes nous', href: '/qui-sommes-nous#top' },
+    { name: 'Contact', href: '/contact#top' },
+    { name: 'Prendre Rendez-vous', href: 'https://zcal.co/myriambenaroch/30min' },
   ];
 
   return (
