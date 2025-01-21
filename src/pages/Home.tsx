@@ -102,7 +102,7 @@ export default function Home() {
                 alignment="left"
               />
               <p className="text-gray-600 mb-8 leading-relaxed font-light">
-                EZER AVOCAT, cabinet dédié au droit des affaires, accompagne les entreprises en élaborant les stratégies judiciaires les plus adaptées à leurs situations. Le cabinet intervient devant l’ensemble des juridictions civiles et commerciales de France.
+                EZER AVOCATS, cabinet dédié au droit des affaires, accompagne les entreprises en élaborant les stratégies judiciaires les plus adaptées à leurs situations. Le cabinet intervient devant l’ensemble des juridictions civiles et commerciales de France.
               </p>
               <Link to="/cabinet#top" className="text-sm tracking-wider text-gray-900 hover:text-gray-600 transition-colors duration-300">
                 DÉCOUVRIR NOTRE CABINET →

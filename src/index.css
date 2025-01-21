@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.hover-underline:hover {
+  text-decoration: underline;
+}
+
 body {
   @apply text-[rgb(240,191,126)];
 }

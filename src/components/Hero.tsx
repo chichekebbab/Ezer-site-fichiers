@@ -5,7 +5,7 @@ import Logo from './Logo';
 
 export default function Hero() {
   return (
-      <section className="relative h-screen bg-primary bg-cover bg-center" style={{ backgroundImage: "url('/src/assets/images/homepage.webp')" }}> {/* Optimized WebP format */}
+      <section className="relative h-screen bg-primary bg-cover bg-center" style={{ backgroundImage: "url('/src/assets/images/homepage.jpg')" }}>
       <div className="absolute inset-0 bg-black/50"></div>
       <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
         <div className="max-w-3xl">

@@ -18,13 +18,13 @@ export default function Navbar() {
   return (
     <nav className="bg-white shadow-md" role="navigation" aria-label="Navigation principale">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-20">
+        <div className="flex justify-between h-24">
           <div className="flex items-center">
             <Logo />
           </div>
 
           {/* Desktop menu */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-10">
             {navigation.map((item) => (
               <Link
                 key={item.name}
@@ -33,7 +33,7 @@ export default function Navbar() {
                   location.pathname === item.href
                     ? 'text-primary border-b-2 border-primary'
                     : 'text-gray-500 hover:text-primary'
-                } px-3 py-2 text-sm font-medium transition-colors duration-200`}
+                } px-3 py-2 text-base font-medium transition-colors duration-200`}
               >
                 {item.name}
               </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
               aria-expanded={isOpen}
               aria-controls="mobile-menu"
             >
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {isOpen ? <X className="h-8 w-8" /> : <Menu className="h-8 w-8" />}
             </button>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function Navbar() {
                   location.pathname === item.href
                     ? 'text-primary bg-primary/5'
                     : 'text-gray-500 hover:text-primary hover:bg-primary/5'
-                } block px-3 py-2 rounded-md text-base font-medium`}
+                } block px-3 py-2 rounded-md text-lg font-medium`}
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}

@@ -28,61 +28,22 @@ export default function Equipe() {
               className="absolute inset-0 w-full h-full object-cover rounded-full shadow-lg"
             />
           </div>
-          <p className="text-gray-600 mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div>
-            <h3 className="text-2xl font-bold mb-4">Formation</h3>
-            <ul className="space-y-4">
-              <li className="flex items-start">
-                <span className="h-6 w-6 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center mr-3 mt-1">
-                  •
-                </span>
-                <div>
-                  <p className="font-semibold">Lorem ipsum dolor sit amet</p>
-                  <p className="text-gray-600">2010 - 2015</p>
-                </div>
-              </li>
-              <li className="flex items-start">
-                <span className="h-6 w-6 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center mr-3 mt-1">
-                  •
-                </span>
-                <div>
-                  <p className="font-semibold">Consectetur adipiscing elit</p>
-                  <p className="text-gray-600">2005 - 2010</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-2xl font-bold mb-4">Distinctions</h3>
-            <ul className="space-y-4">
-              <li className="flex items-start">
-                <span className="h-6 w-6 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center mr-3 mt-1">
-                  •
-                </span>
-                <div>
-                  <p className="font-semibold">Lorem ipsum dolor sit amet</p>
-                  <p className="text-gray-600">2020</p>
-                </div>
-              </li>
-              <li className="flex items-start">
-                <span className="h-6 w-6 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center mr-3 mt-1">
-                  •
-                </span>
-                <div>
-                  <p className="font-semibold">Consectetur adipiscing elit</p>
-                  <p className="text-gray-600">2018</p>
-                </div>
-              </li>
-            </ul>
+          <div className="text-gray-600 mb-6 text-center text-justify space-y-4">
+            <p>
+              Avocate au Barreau de Paris depuis 2019, exerçant en contentieux des affaires, j’accompagne des entreprises françaises et internationales de toutes tailles dans la gestion de leurs litiges.
+            </p>
+            
+            <p>
+              Mon parcours, au sein de cabinets pluridisciplinaires français et anglo-saxons à Paris (Bird & Bird et LPA Law) et en Californie (Bruns Legal), m’a permis de développer une expertise approfondie dans divers types de litiges civils et commerciaux : ruptures de relations contractuelles ou commerciales, contentieux post-cessions ou acquisitions,  litiges entre actionnaires, construction, risques industriels, différends spécifiques aux acteurs de l’économie numérique.
+            </p>
+            
+            <p>
+              Je suis diplômée d’un Master I en Droit des affaires de l’Université Paris I – Panthéon Sorbonne (2016), et d’un Master II en Droit des activités numériques de l’Université Paris V – Descartes, réalisé en alternance au sein du département Tech & Data d’un cabinet français (Lawways).
+            </p>
+            
+            <p>
+              Curieuse et créative, je m’engage à défendre les intérêts de mes clients devant les juridictions françaises dans les meilleures conditions possibles. Pragmatique, je privilégie la résolution amiable des litiges (négociation, médiation ou conciliation) lorsque cela est envisageable. Néanmoins, je n'hésite pas à adopter une approche procédurale et stratégique lorsque les parties ne sont pas disposées à négocier de bonne foi.
+            </p>
           </div>
         </div>
       </div>

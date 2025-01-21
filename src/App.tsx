@@ -12,6 +12,7 @@ import DroitNumerique from './pages/expertises/DroitNumerique';
 import DroitConsommation from './pages/expertises/DroitConsommation';
 import DroitConstruction from './pages/expertises/DroitConstruction';
 import ModesAlternatifs from './pages/expertises/ModesAlternatifs';
+import MentionsLegales from './pages/MentionsLegales';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/expertises/droit-construction" element={<DroitConstruction />} />
           <Route path="/expertises/modes-alternatifs" element={<ModesAlternatifs />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/mentions-legales" element={<MentionsLegales />} />
         </Routes>
       </Layout>
     </Router>
