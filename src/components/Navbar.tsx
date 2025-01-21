@@ -16,7 +16,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-white shadow-md">
+    <nav className="bg-white shadow-md" role="navigation" aria-label="Navigation principale">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20">
           <div className="flex items-center">
@@ -45,6 +45,9 @@ export default function Navbar() {
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-500 hover:text-primary"
+              aria-label={isOpen ? "Fermer le menu" : "Ouvrir le menu"}
+              aria-expanded={isOpen}
+              aria-controls="mobile-menu"
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -54,7 +57,13 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden">
+        <div 
+          className="md:hidden" 
+          id="mobile-menu"
+          role="region"
+          onKeyDown={(e) => e.key === 'Escape' && setIsOpen(false)}
+          tabIndex={-1}
+        >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navigation.map((item) => (
               <Link
