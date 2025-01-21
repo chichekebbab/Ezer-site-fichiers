@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 body {
-  @apply text-gray-600;
+  @apply text-[rgb(240,191,126)];
 }

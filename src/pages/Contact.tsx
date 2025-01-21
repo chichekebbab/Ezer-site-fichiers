@@ -37,30 +37,11 @@ export default function Contact() {
             <iframe 
               src="https://zcal.co/i/eaFLKrTt?embed=1&embedType=iframe" 
               loading="lazy"
-              style={{ border: 'none', minWidth: '320px', minHeight: '544px', height: '701px', width: '100%' }}
+              style={{ border: 'none', minWidth: '320px', height: '800px', width: '100%' }}
               id="zcal-invite"
             />
           </div>
           
-          <div className="space-y-8">
-            <div>
-              <h3 className="text-lg font-medium mb-4">Coordonnées</h3>
-              <div className="space-y-4">
-                <p className="flex items-center text-gray-600">
-                  <MapPin className="h-5 w-5 mr-3 text-primary" />
-                  75008 Paris
-                </p>
-              </div>
-            </div>
-            
-            <div>
-              <h3 className="text-lg font-medium mb-4">Adresse</h3>
-              <div className="text-gray-600">
-                <p>Myriam Douillet</p>
-                <p>66 rue de Moncea, 75008 Paris</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>

@@ -40,7 +40,7 @@ export default function Navbar() {
             ))}
             <Link
               to={navigation[navigation.length - 1].href}
-              className="ml-4 px-4 py-2 bg-primary text-white text-sm font-semibold rounded-md hover:bg-primary/90 transition-colors duration-200"
+              className="ml-4 px-4 py-2 bg-[rgb(113,145,170)] text-white text-sm font-semibold rounded-md hover:bg-[rgb(113,145,170)]/90 transition-colors duration-200"
             >
               {navigation[navigation.length - 1].name}
             </Link>
