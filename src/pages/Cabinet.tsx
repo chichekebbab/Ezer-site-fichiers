@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
-import { Scale, Building2, Users, FileText } from 'lucide-react';
+import { Scale } from 'lucide-react';
 import PageHeader from '../components/PageHeader';
 import { useLocation } from 'react-router-dom';
+import livresImage from '../assets/images/livres.jpg';
+import cabinetImage from '../assets/images/Le Cabinet.jpg';
 
 export default function Cabinet() {
   const location = useLocation();
@@ -21,7 +23,7 @@ export default function Cabinet() {
       <PageHeader 
         title="Le Cabinet"
         description="Une expertise juridique au service de vos projets"
-        backgroundImage="/src/assets/images/livres.jpg"
+        backgroundImage={livresImage}
         icon={<Scale className="w-16 h-16 text-white/80" />}
       />
       
@@ -58,7 +60,7 @@ export default function Cabinet() {
           </div>
           <div className="relative aspect-square rounded-lg overflow-hidden">
             <img
-              src="/src/assets/images/Le Cabinet.jpg"
+              src={cabinetImage}
               alt="Le Cabinet"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105 rounded-2xl"
             />

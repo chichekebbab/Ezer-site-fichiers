@@ -11,7 +11,7 @@ export default function Navbar() {
     { name: 'Accueil', href: '/#top' },
     { name: 'Expertises', href: '/expertises#top' },
     { name: 'Le Cabinet', href: '/cabinet#top' },
-    { name: 'Qui sommes nous', href: '/qui-sommes-nous#top' },
+    { name: 'Qui sommes nous', href: '/equipe' },
     { name: 'Contact', href: '/contact#top' },
     { name: 'Prendre Rendez-vous', href: 'https://zcal.co/myriambenaroch/30min' },
   ];
@@ -39,12 +39,14 @@ export default function Navbar() {
                 {item.name}
               </Link>
             ))}
-            <Link
-              to={navigation[navigation.length - 1].href}
+            <a
+              href={navigation[navigation.length - 1].href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="ml-4 px-4 py-2 bg-[rgb(113,145,170)] text-white text-sm font-semibold rounded-md hover:bg-[rgb(113,145,170)]/90 transition-colors duration-200"
             >
               {navigation[navigation.length - 1].name}
-            </Link>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -70,18 +72,31 @@ export default function Navbar() {
           {/* Menu */}
           <div className="relative bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navigation.map((item) => (
-              <Link
-                key={item.name}
-                to={item.href}
-                className={`${
-                  location.pathname === item.href
-                    ? 'text-primary bg-primary/5'
-                    : 'text-gray-500 hover:text-primary hover:bg-primary/5'
-                } block px-3 py-2 rounded-md text-base font-medium`}
-                onClick={() => setIsOpen(false)}
-              >
-                {item.name}
-              </Link>
+              item.name === 'Prendre Rendez-vous' ? (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-500 hover:text-primary hover:bg-primary/5 block px-3 py-2 rounded-md text-base font-medium"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.name}
+                </a>
+              ) : (
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  className={`${
+                    location.pathname === item.href
+                      ? 'text-primary bg-primary/5'
+                      : 'text-gray-500 hover:text-primary hover:bg-primary/5'
+                  } block px-3 py-2 rounded-md text-base font-medium`}
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.name}
+                </Link>
+              )
             ))}
           </div>
         </div>

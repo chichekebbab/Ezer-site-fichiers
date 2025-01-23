@@ -2,6 +2,13 @@ import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import SectionTitle from '../components/SectionTitle';
 import PageHeader from '../components/PageHeader';
+import expertiseImage from '../assets/images/expertise.jpg';
+import droitCommercialImage from '../assets/images/expertises/Droit commercial.jpg';
+import droitSocietesImage from '../assets/images/expertises/Droit des sociétés.jpg';
+import droitNumeriqueImage from '../assets/images/expertises/Droit du numérique.jpg';
+import droitConsommationImage from '../assets/images/expertises/droit de la consommation.jpg';
+import droitConstructionImage from '../assets/images/expertises/Droit de la construction.jpg';
+import modesAlternatifsImage from '../assets/images/expertises/Modes alternatifs.jpg';
 
 export default function Expertises() {
   const location = useLocation();
@@ -14,42 +21,42 @@ export default function Expertises() {
     {
       id: 'droit-commercial',
       title: 'Droit commercial',
-      image: '/src/assets/images/expertises/Droit commercial.jpg',
+      image: droitCommercialImage,
       description: "Nous accompagnons nos clients dans la défense de leurs intérêts commerciaux et les aidons à sécuriser leurs relations d'affaires.",
       link: '/expertises/droit-commercial'
     },
     {
       id: 'droit-societes',
       title: 'Droit des sociétés',
-      image: '/src/assets/images/expertises/Droit des sociétés.jpg',
+      image: droitSocietesImage,
       description: 'Nous accompagnons les entreprises et leurs dirigeants pour résoudre des litiges complexes en droit des sociétés.',
       link: '/expertises/droit-societes'
     },
     {
       id: 'droit-numerique',
       title: 'Droits et actifs numériques',
-      image: '/src/assets/images/expertises/Droit du numérique.jpg',
+      image: droitNumeriqueImage,
       description: 'Grâce à notre expérience en droit des activités numériques, nous accompagnons les entreprises dans la résolution de leurs litiges digitaux.',
       link: '/expertises/droit-numerique'
     },
     {
       id: 'droit-consommation',
       title: 'Droit de la consommation et de la distribution',
-      image: '/src/assets/images/expertises/droit de la consommation.jpg',
+      image: droitConsommationImage,
       description: 'Nous vous accompagnons dans la gestion de vos litiges avec les consommateurs et intervenons notamment sur des contentieux relatifs aux pratiques commerciales.',
       link: '/expertises/droit-consommation'
     },
     {
       id: 'droit-construction',
       title: 'Droit de la construction - Risques industriels',
-      image: '/src/assets/images/expertises/Droit de la construction.jpg',
+      image: droitConstructionImage,
       description: 'Nous accompagnons les professionnels du secteur de la construction pour sécuriser et défendre leurs projets.',
       link: '/expertises/droit-construction'
     },
     {
       id: 'modes-alternatifs',
       title: 'Modes alternatifs de règlements des litiges',
-      image: '/src/assets/images/expertises/Modes alternatifs.jpg',
+      image: modesAlternatifsImage,
       description: 'Nous accompagnons entreprises et particuliers dans la recherche de solutions efficaces et constructives pour leurs différends.',
       link: '/expertises/modes-alternatifs'
     }
@@ -60,7 +67,7 @@ export default function Expertises() {
       <PageHeader
         title="Nos Expertises"
         description="Domaines d'intervention"
-        backgroundImage="/src/assets/images/expertise.jpg"
+        backgroundImage={expertiseImage}
       />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">

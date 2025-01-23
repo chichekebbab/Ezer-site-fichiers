@@ -1,5 +1,6 @@
 import React from 'react';
 import ExpertiseDetail from '../../components/ExpertiseDetail';
+import droitConsommationImage from '../../assets/images/expertises/droit de la consommation.jpg';
 
 export default function DroitConsommation() {
   const content = (
@@ -23,7 +24,7 @@ export default function DroitConsommation() {
     <ExpertiseDetail
       title="Droit de la consommation et de la distribution"
       description="Protection des intérêts et conformité dans les relations avec les consommateurs"
-      imagePath="/src/assets/images/expertises/droit de la consommation.jpg"
+      imagePath={droitConsommationImage}
       content={content}
     />
   );

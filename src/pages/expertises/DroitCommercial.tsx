@@ -1,5 +1,6 @@
 import React from 'react';
 import ExpertiseDetail from '../../components/ExpertiseDetail';
+import droitCommercialImage from '../../assets/images/expertises/Droit commercial.jpg';
 
 export default function DroitCommercial() {
   const content = (
@@ -26,7 +27,7 @@ export default function DroitCommercial() {
     <ExpertiseDetail
       title="Droit commercial"
       description="Sécurisation des relations d'affaires et défense des intérêts commerciaux"
-      imagePath="/src/assets/images/expertises/Droit commercial.jpg"
+      imagePath={droitCommercialImage}
       content={content}
     />
   );

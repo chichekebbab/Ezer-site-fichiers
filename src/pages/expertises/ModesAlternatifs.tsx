@@ -1,5 +1,6 @@
 import React from 'react';
 import ExpertiseDetail from '../../components/ExpertiseDetail';
+import modesAlternatifsImage from '../../assets/images/expertises/Modes alternatifs.jpg';
 
 export default function ModesAlternatifs() {
   const content = (
@@ -23,7 +24,7 @@ export default function ModesAlternatifs() {
     <ExpertiseDetail
       title="Modes alternatifs de règlements des litiges"
       description="Solutions amiables et efficaces pour la résolution des différends"
-      imagePath="/src/assets/images/expertises/Modes alternatifs.jpg"
+      imagePath={modesAlternatifsImage}
       content={content}
     />
   );

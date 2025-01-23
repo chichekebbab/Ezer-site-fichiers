@@ -1,5 +1,6 @@
 import React from 'react';
 import ExpertiseDetail from '../../components/ExpertiseDetail';
+import droitSocietesImage from '../../assets/images/expertises/Droit des sociétés.jpg';
 
 export default function DroitSocietes() {
   const content = (
@@ -26,7 +27,7 @@ export default function DroitSocietes() {
     <ExpertiseDetail
       title="Droit des sociétés"
       description="Résolution des litiges complexes et protection des intérêts sociaux"
-      imagePath="/src/assets/images/expertises/Droit des sociétés.jpg"
+      imagePath={droitSocietesImage}
       content={content}
     />
   );

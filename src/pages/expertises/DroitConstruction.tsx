@@ -1,5 +1,6 @@
 import React from 'react';
 import ExpertiseDetail from '../../components/ExpertiseDetail';
+import droitConstructionImage from '../../assets/images/expertises/Droit de la construction.jpg';
 
 export default function DroitConstruction() {
   const content = (
@@ -29,7 +30,7 @@ export default function DroitConstruction() {
     <ExpertiseDetail
       title="Droit de la construction - Risques industriels"
       description="Sécurisation des projets et gestion des litiges techniques"
-      imagePath="/src/assets/images/expertises/Droit de la construction.jpg"
+      imagePath={droitConstructionImage}
       content={content}
     />
   );

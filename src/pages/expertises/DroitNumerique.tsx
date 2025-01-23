@@ -1,5 +1,6 @@
 import React from 'react';
 import ExpertiseDetail from '../../components/ExpertiseDetail';
+import droitNumeriqueImage from '../../assets/images/expertises/Droit du numérique.jpg';
 
 export default function DroitNumerique() {
   const content = (
@@ -26,7 +27,7 @@ export default function DroitNumerique() {
     <ExpertiseDetail
       title="Droits et actifs numériques"
       description="Protection et sécurisation de vos activités numériques"
-      imagePath="/src/assets/images/expertises/Droit du numérique.jpg"
+      imagePath={droitNumeriqueImage}
       content={content}
     />
   );
