@@ -1,6 +1,7 @@
 import React from 'react';
 import { Phone, Mail, MapPin, Clock, Linkedin } from 'lucide-react';
 import Logo from '../Logo';
+import whiteLogo from '../../assets/images/Ezer Logo/Ezer White logo Transparent bg.svg';
 
 export default function Footer() {
   return (
@@ -9,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
             <img
-              src="/src/assets/images/Ezer Logo/Ezer White logo Transparent bg.svg"
+              src={whiteLogo}
               alt="Ezer Avocats"
               className="mb-6 h-12"
             />

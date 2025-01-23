@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Hero from '../components/Hero';
 import SectionTitle from '../components/SectionTitle';
 import { Link, useLocation } from 'react-router-dom';
+import justiceImage from '../assets/images/justice.jpg';
 
 export default function Home() {
   const location = useLocation();
@@ -110,7 +111,7 @@ export default function Home() {
             </div>
             <div className="relative h-[600px] overflow-hidden">
               <img
-                src="/src/assets/images/justice.jpg"
+                src={justiceImage}
                 alt="Salle de réunion"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105 rounded-2xl"
               />

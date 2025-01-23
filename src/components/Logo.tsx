@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import blackLogo from '../assets/images/Ezer Logo/Ezer Black Logo Transparent bg.svg';
 
 interface LogoProps {
   className?: string;
@@ -7,7 +8,7 @@ interface LogoProps {
 }
 
 export default function Logo({ className = '', color = 'black' }: LogoProps) {
-  const logoUrl = 'src/assets/images/Ezer Logo/Ezer Black Logo Transparent bg.svg';
+  const logoUrl = blackLogo;
   
   return (
     <Link to="/" className={`block ${className}`}>
