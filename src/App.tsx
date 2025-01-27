@@ -1,5 +1,4 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 import Home from './pages/Home';
 import Cabinet from './pages/Cabinet';
@@ -16,7 +15,6 @@ import MentionsLegales from './pages/MentionsLegales';
 
 function App() {
   return (
-    <Router>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -33,7 +31,6 @@ function App() {
           <Route path="/mentions-legales" element={<MentionsLegales />} />
         </Routes>
       </Layout>
-    </Router>
   );
 }
 

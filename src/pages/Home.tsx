@@ -64,7 +64,7 @@ export default function Home() {
                 <circle cx="19" cy="21" r="1"></circle>
                 <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path>
               </svg>
-              <h3 className="text-xl font-light tracking-wide text-gray-900 text-center">DROIT DE LA CONSO ET DE LA DISTRIBUTION</h3>
+              <h3 className="text-xl font-light tracking-wide text-gray-900 text-center">DROIT DE LA CONSOMMATION ET DE LA DISTRIBUTION</h3>
             </Link>
             <Link to="/expertises/droit-construction" className="group p-8 bg-white hover:bg-gray-50 transition-all duration-500 border border-gray-100 block">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-construction h-10 w-10 text-gray-900 mb-6 opacity-75 group-hover:scale-110 transition-all duration-500 mx-auto">
