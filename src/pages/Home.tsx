@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Hero from '../components/Hero';
 import SectionTitle from '../components/SectionTitle';
 import { Link, useLocation } from 'react-router-dom';
-import justiceImage from '../assets/images/justice.jpg';
+import justiceImage from '../assets/images/myriam.jpeg';
 
 export default function Home() {
   const location = useLocation();

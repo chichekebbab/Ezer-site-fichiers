@@ -44,7 +44,7 @@ export default function ExpertiseDetail({ title, description, imagePath, content
             to="/expertises"
             className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[rgb(127,156,178)] hover:bg-[rgb(107,136,158)] transition-colors duration-200"
           >
-            Retour aux expertises
+            Voir les domaines de compétences
           </Link>
         </div>
       </div>

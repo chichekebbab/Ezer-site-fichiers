@@ -17,10 +17,10 @@ export default function Hero() {
             loading="lazy"
             className="mb-8 w-[280px] opacity-100"
           />
-          <p className="text-gray-300 text-lg mb-4 tracking-wider">CABINET D'AVOCATS À PARIS DEDIÉ AU CONTENTIEUX DES AFFAIRES</p>
-          <h1 className="text-4xl md:text-6xl font-extralight text-white mb-8 leading-tight">
-            Vos enjeux,<br />
-            <span className="font-light">notre expertise</span>
+          <p className="text-gray-300 text-xl mb-4 tracking-wider">VOS ENJEUX, NOTRE EXPERTISE</p>
+          <h1 className="text-4xl md:text-6xl font-extralight text-white mb-8 leading-tight whitespace-nowrap">
+          Cabinet d'avocats à Paris dedié au<br />contentieux des affaires
+            <span className="font-light"></span>
           </h1>
           <Link
             to="/contact"

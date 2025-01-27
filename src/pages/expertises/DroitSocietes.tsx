@@ -9,10 +9,10 @@ export default function DroitSocietes() {
         Nous accompagnons les entreprises et leurs dirigeants pour résoudre des litiges complexes en droit des sociétés.
       </p>
       <p>
-        Notre expertise en résolution de conflits entre actionnaires notamment en cas de situations de blocage, de violation de pactes d'actionnaires ou encore d'abus de minorité ou de majorité, nous permet de rétablir la stabilité de votre société en maintenant la défense de vos intérêts.
+        Notre expertise en résolution de conflits entre actionnaires notamment en cas de blocage, de violation de pactes d'actionnaires ou encore d'abus de minorité ou de majorité, nous permet de rétablir la stabilité de votre société en maintenant la défense de vos intérêts.
       </p>
       <p>
-        Nous intervenons également en matière de responsabilité des dirigeants compte-tenu des enjeux déterminants que peuvent engendrer des fautes de gestion, une violation de statuts ou de pactes extra-statutaires ainsi que des abus de pouvoirs.
+        Nous intervenons également en matière de responsabilité des dirigeants compte-tenu des enjeux déterminants que peuvent engendrer des fautes de gestion, une violation de statuts ou des pactes extra-statutaires ainsi que des abus de pouvoir.
       </p>
       <p>
         Nous assistons par ailleurs les entreprises dans les litiges post-cession ou acquisition de sociétés ou de fonds de commerce (mise en œuvre de garanties d'actif et de passif, ajustement ou complément de prix…) devant toutes juridictions au fond ou en référé.

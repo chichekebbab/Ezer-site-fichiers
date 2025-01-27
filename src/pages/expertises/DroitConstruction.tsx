@@ -18,7 +18,7 @@ export default function DroitConstruction() {
         Nous travaillons en étroite collaboration avec un réseau d'experts techniques dans le but de défendre au mieux les intérêts de nos clients lors des expertises judiciaires et faciliter la prise de décisions, notamment dans le cadre de négociations amiables.
       </p>
       <p>
-        Par ailleurs, le cabinet intervient en matière de vices cachés et de défauts de conformité dans des litiges nécessitant une expertise technique pointue.
+        Par ailleurs, le cabinet intervient dans des litiges relatifs aux vices cachés et aux défauts de conformité, nécessitant une expertise technique pointue.
       </p>
       <p className="font-medium">
         Notre engagement : sécuriser vos projets de construction et les risques industriels grâce à une expertise juridique fiable.

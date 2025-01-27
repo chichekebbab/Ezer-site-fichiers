@@ -8,18 +8,18 @@ export default function Navbar() {
   const location = useLocation();
 
   const navigation = [
-    { name: 'Accueil', href: '/#top' },
-    { name: 'Expertises', href: '/expertises#top' },
-    { name: 'Le Cabinet', href: '/cabinet#top' },
-    { name: 'Qui sommes nous', href: '/equipe' },
-    { name: 'Contact', href: '/contact#top' },
-    { name: 'Prendre Rendez-vous', href: 'https://zcal.co/myriambenaroch/30min' },
+    { name: 'Accueil', href: '/' },
+    { name: 'Expertises', href: '/expertises' },
+    { name: 'Le Cabinet', href: '/cabinet' },
+    { name: 'Qui sommes-nous ?', href: '/equipe' },
+    { name: 'Contact', href: '/contact' },
+    { name: 'Prendre Rendez-vous', href: 'https://zcal.co/myriambenaroch/premiercontact' },
   ];
 
   return (
     <nav className="bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-20">
+        <div className="flex justify-between h-28">
           <div className="flex items-center">
             <Logo />
           </div>
@@ -31,10 +31,10 @@ export default function Navbar() {
                 key={item.name}
                 to={item.href}
                 className={`${
-                  location.pathname === item.href
+                  (location.pathname.startsWith(item.href) && item.href !== '/') || location.pathname === item.href
                     ? 'text-primary border-b-2 border-primary'
                     : 'text-gray-500 hover:text-primary'
-                } px-3 py-2 text-sm font-medium transition-colors duration-200`}
+                } px-3 py-2 text-lg font-medium transition-colors duration-200`}
               >
                 {item.name}
               </Link>
@@ -43,7 +43,7 @@ export default function Navbar() {
               href={navigation[navigation.length - 1].href}
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-4 px-4 py-2 bg-[rgb(113,145,170)] text-white text-sm font-semibold rounded-md hover:bg-[rgb(113,145,170)]/90 transition-colors duration-200"
+              className="ml-4 px-6 py-3 bg-[rgb(113,145,170)] text-white text-lg font-semibold rounded-md hover:bg-[rgb(113,145,170)]/90 transition-colors duration-200"
             >
               {navigation[navigation.length - 1].name}
             </a>
@@ -88,7 +88,7 @@ export default function Navbar() {
                   key={item.name}
                   to={item.href}
                   className={`${
-                    location.pathname === item.href
+                    (location.pathname.startsWith(item.href) && item.href !== '/') || location.pathname === item.href
                       ? 'text-primary bg-primary/5'
                       : 'text-gray-500 hover:text-primary hover:bg-primary/5'
                   } block px-3 py-2 rounded-md text-base font-medium`}

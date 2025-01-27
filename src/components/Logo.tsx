@@ -15,7 +15,7 @@ export default function Logo({ className = '', color = 'black' }: LogoProps) {
       <img 
         src={logoUrl} 
         alt="Ezer Avocats Logo" 
-        className={`h-12 object-contain ${color === 'white' ? 'invert' : ''}`}
+        className={`h-16 object-contain ${color === 'white' ? 'invert' : ''}`}
       />
     </Link>
   );

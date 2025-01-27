@@ -34,14 +34,14 @@ export default function Cabinet() {
             
             <div className="space-y-6">
               <div className="mt-8">
-                <p className="text-gray-600 font-light leading-relaxed text-justify">
+                <p className="text-gray-600 mt-4 text-justify">
                   EZER AVOCATS, cabinet dédié au droit des affaires, accompagne les entreprises en élaborant les stratégies judiciaires les plus adaptées à leurs situations. Le cabinet intervient devant l'ensemble des juridictions civiles et commerciales de France.
                 </p>
                 <p className="text-gray-600 mt-4 text-justify">
-                  Fort de notre expérience, notre approche consiste à anticiper les risques, élaborer une stratégie adaptée à vos besoins et vous accompagner à chaque étape de vos litiges avec rigueur et proactivité afin de vous offrir un accompagnement sur-mesure pour la résolution de vos litiges.
+                   Forts de notre expérience, notre approche consiste à anticiper les risques, élaborer une stratégie adaptée à vos besoins et vous accompagner à chaque étape de vos litiges avec rigueur et proactivité afin de vous offrir un accompagnement  sur mesure pour la résolution de vos litiges.
                 </p>
                 <p className="text-gray-600 mt-4 text-justify">
-                  Nous privilégions une approche axée sur la résolution amiable des litiges, en nous efforçant de parvenir à une transaction lorsque cela est possible. Notre démarche proactive consiste à explorer les opportunités de règlement amiable à tous les stades d'une affaire du pré-contentieux jusqu'à l'exécution d'un jugement. Nous sommes convaincus que la transaction permet de résoudre les différends de manière efficace, économique et confidentielle. Ainsi nous nous efforçons de trouver des solutions équilibrées qui préservent les intérêts de nos clients tout en évitant les coûts et les complexités associés aux procédures judiciaires.
+                  Nous privilégions une approche axée sur la résolution amiable des litiges, en nous efforçant de parvenir à une transaction lorsque cela est possible. Notre démarche proactive consiste à explorer les opportunités de règlement amiable à tous les stades d'une affaire du pré-contentieux jusqu'à l'exécution des décisions de justice. Nous sommes convaincus que la transaction permet de résoudre les différends de manière efficace, économique et confidentielle. Ainsi nous nous efforçons de trouver des solutions équilibrées qui préservent les intérêts de nos clients tout en évitant les coûts et les complexités associés aux procédures judiciaires.
                 </p>
                 <p className="text-gray-600 mt-4 text-justify">
                   Nous savons néanmoins, lorsque cela est nécessaire, mettre en œuvre une stratégie contentieuse efficace reposant sur une expertise approfondie des outils procéduraux, combinée à des compétences solides en négociation visant d'une part à sécuriser les créances de nos clients et d'autre part à en poursuivre le paiement.

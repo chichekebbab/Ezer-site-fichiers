@@ -26,11 +26,11 @@ export default function Equipe() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
             <div>
               <SectionTitle
-                subtitle="Notre équipe"
+                subtitle=" "
                 title="Maître Myriam Douillet Benaroch"
                 alignment="left"
               />
-              <div className="text-gray-600 mb-6 text-justify space-y-4">
+              <div className="text-gray-600 mb-3 text-justify space-y-4">
                 <p>
                   Avocate au Barreau de Paris depuis 2019, exerçant en contentieux des affaires, j'accompagne des entreprises françaises et internationales de toutes tailles dans la gestion de leurs litiges.
                 </p>
