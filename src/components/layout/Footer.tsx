@@ -28,8 +28,8 @@ export default function Footer() {
               </p>
               <p className="flex items-center text-white font-light">
                 <Mail className="h-5 w-5 mr-3 text-white/50" />
-                <a href="mailto:contact@ezeravocats.com" className="hover:underline">
-                  contact@ezeravocats.com
+                <a href="mailto:myriam.douillet@ezeravocats.com" className="hover:underline">
+                  myriam.douillet@ezeravocats.com
                 </a>
               </p>
               <p className="flex items-center text-white font-light">
