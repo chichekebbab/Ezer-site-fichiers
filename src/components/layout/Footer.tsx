@@ -15,7 +15,7 @@ export default function Footer() {
               className="mb-6 h-12"
             />
             <p className="text-white font-light">
-              Cabinet d'avocats dédié au contentieux des affaires.
+              Cabinet d'avocats dédié au contentieux des affaires
             </p>
           </div>
           
@@ -30,6 +30,12 @@ export default function Footer() {
                 <Mail className="h-5 w-5 mr-3 text-white/50" />
                 <a href="mailto:myriam.douillet@ezeravocats.com" className="hover:underline">
                   myriam.douillet@ezeravocats.com
+                </a>
+              </p>
+              <p className="flex items-center text-white font-light">
+                <Phone className="h-5 w-5 mr-3 text-white/50" />
+                <a href="tel:0185092854" className="hover:underline">
+                  01 85 09 28 54
                 </a>
               </p>
               <p className="flex items-center text-white font-light">
