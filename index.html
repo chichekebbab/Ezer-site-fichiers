@@ -20,6 +20,32 @@
     <meta name="keywords" content="cabinet avocat Paris, droit commercial, contentieux entreprise, droit des sociétés, litigation commercial, expertise juridique" />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://www.ezeravocats.com/" />
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="/src/assets/images/Ezer Logo/Ezer Inverted Color Transparent bg (1).svg" as="image" fetchpriority="high" />
+    <link rel="preload" href="/src/assets/images/homepage.jpg" as="image" fetchpriority="high" />
+    
+    <!-- Preload and optimize font loading -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@200;300&display=swap" as="style" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@200;300&display=swap" media="print" onload="this.media='all'" />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@200;300&display=swap" />
+    </noscript>
+    <!-- Add font-display swap for immediate text rendering -->
+    <style>
+      @font-face {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 200;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+      }
+    </style>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -27,7 +53,6 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <div id="root" role="main"></div>
-    <link rel="preload" href="/src/assets/images/Ezer Logo/Ezer Without Slogan Transparent bg.svg" as="image" fetchpriority="high">
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

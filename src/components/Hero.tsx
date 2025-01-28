@@ -14,13 +14,13 @@ export default function Hero() {
           <img
             src={ezerLogo}
             alt="Logo Ezer Avocats - Cabinet spécialisé en droit des affaires"
-            loading="lazy"
+            // @ts-ignore - React expects lowercase HTML attributes
+            fetchpriority="high"
             className="mb-8 w-[280px] opacity-100"
           />
           <p className="text-gray-300 text-xl mb-4 tracking-wider">VOS ENJEUX, NOTRE EXPERTISE</p>
-          <h1 className="text-4xl md:text-6xl font-extralight text-white mb-8 leading-tight whitespace-nowrap">
-          Cabinet d'avocats à Paris dedié au<br />contentieux des affaires
-            <span className="font-light"></span>
+          <h1 className="text-4xl md:text-6xl font-extralight text-white mb-8 leading-tight">
+            Cabinet d'avocats à Paris dédié au contentieux des affaires
           </h1>
           <Link
             to="/contact"
