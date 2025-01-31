@@ -24,7 +24,7 @@ export default function Home() {
       <article className="py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-16 pt-2 text-center">
-            Un cabinet d'avocat dédié au contentieux des affaires
+            Un cabinet d'avocats dédié au contentieux des affaires
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
